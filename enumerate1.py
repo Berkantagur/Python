@@ -3,11 +3,15 @@ people = ["Ayşenur", "Ahmet Furkan", "Beyza E.", "Kaan", "Petek", "Berkant", "B
 
 def divide_people(people):
     groups = [[], []]
+
     for index, person in enumerate(people):
+
         if index % 2 == 0:
             groups[0].append(person)
+            
         else:
             groups[1].append(person)
+            
     print(groups)
     return groups
 
