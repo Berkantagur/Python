@@ -1,3 +1,5 @@
+# The operation of enlargement and reduction the letter according to
+# whether the index of the entered string expression is even or odd
 
 def exchange (string):
     new_string = ""
