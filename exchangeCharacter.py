@@ -15,4 +15,4 @@ def exchange (string):
     
     print(new_string)
 
-exchange ("hi my name is berkant")
+exchange ("hi my name is berkant and i am learning python programming language")
