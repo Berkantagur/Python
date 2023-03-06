@@ -2,7 +2,7 @@
 # In Python, we have comprehensions for lists, dictionaries, sets and generators. 
 # The type of the existing (original) sequence and new sequence need not be the same.
 
-
+#Exp1:
 salaries = [8500, 11300, 9250, 7600, 8100, 10900]
 
 def new_salary(x):
