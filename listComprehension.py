@@ -25,3 +25,10 @@ print(null_list)
 [salary * 1.3 for salary in salaries if salary < 8500]
 [null_list.append(int(new_salary(salary * 1.3))) if salary < 8500 else null_list.append(int(new_salary(salary))) for salary in salaries]
 print(null_list)
+
+
+#Exp2:
+students = ["Berkant", "Şeyda", "Gaffar Cuma", "Arzu", "Yiğit", "Ahmet Kürşat"]
+unwanted_student = ["Berkant", "Şeyda", "Yiğit"]
+
+print([student.lower() if student in unwanted_student else student.upper() for student in students])
