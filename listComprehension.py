@@ -10,7 +10,7 @@ def new_salary(x):
 
 null_list = []
 
-'''
+"""
 for salary in salaries:
 
     if salary >= 8500:
@@ -20,7 +20,7 @@ for salary in salaries:
         null_list.append(int(new_salary(salary * 1.3)))
 
 print(null_list)
-'''
+"""
 
 [salary * 1.3 for salary in salaries if salary < 8500]
 [null_list.append(int(new_salary(salary * 1.3))) if salary < 8500 else null_list.append(int(new_salary(salary))) for salary in salaries]
